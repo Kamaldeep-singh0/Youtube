@@ -1,8 +1,14 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
+import store from '../utils/store'
 
-function SideNav() {
+const SideNav = ()=> {
+  const isMenuOpen = useSelector(store => store.app.isMenuOpen);
+  if(!isMenuOpen){
+    return null;
+  }
   return (
-    <div className='w-52 shadow-lg'>
+    <div className='w-96 shadow-lg'>
       <div className='font-semibold p-2 text-center rounded-xl hover:bg-slate-200'>Home</div>
       <div className='font-semibold p-2 text-center rounded-xl hover:bg-slate-200'>Shorts</div>
       <div className='font-semibold p-2 text-center rounded-xl  hover:bg-slate-200'>Subscriptions</div>
