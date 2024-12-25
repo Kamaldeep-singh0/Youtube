@@ -1,7 +1,7 @@
 import React from 'react'
 
 function VideoCard( { info}) {
-  console.log(info)
+
   return (
     <div className='w-72 h-64 shadow-xl my-5 mx-4'>
       <img alt='thumb' src={info?.snippet?.thumbnails?.maxres?.url} />
