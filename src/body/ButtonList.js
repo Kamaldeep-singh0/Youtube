@@ -2,7 +2,7 @@ import React from 'react'
 
 function ButtonList() {
   return (
-    <div className='my-4'>
+    <div className='my-4 mt-20'>
       <button className=' w-auto px-2 h-8 rounded-full bg-slate-300 p- mx-6'>Trending</button>
       <button className=' w-auto px-2 h-8 rounded-full bg-slate-300 p- mx-5'>Cricket</button>
       <button className=' w-auto px-2 h-8 rounded-full bg-slate-300 p- mx-5'>Hockey</button>

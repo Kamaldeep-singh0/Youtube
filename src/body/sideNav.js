@@ -8,7 +8,7 @@ const SideNav = ()=> {
     return null;
   }
   return (
-    <div className='w-56 shadow-lg'>
+    <div className='w-56 mt-16 shadow-lg'>
       <div className='font-semibold p-2 text-center rounded-xl hover:bg-slate-200'>Home</div>
       <div className='font-semibold p-2 text-center rounded-xl hover:bg-slate-200'>Shorts</div>
       <div className='font-semibold p-2 text-center rounded-xl  hover:bg-slate-200'>Subscriptions</div>
